@@ -7,7 +7,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-      <title>Glacier — Clean & Minimal Portfolio HTML5 Template | About me</title>
+      <title>Glacier — Clean & Minimal Portfolio HTML5 Template | Home - Parallax</title>
       
       <!-- ============ Google Fonts ============ -->
       <link href="https://fonts.googleapis.com/css?family=Dosis:400,600%7CSource+Sans+Pro:300,400,600" rel="stylesheet">
@@ -286,119 +286,213 @@
 <div id="wrapper">
 
         <!-- parallax -->
-        <div class="parallax" style="background-image: url(assets/images/parallax-3.jpg);">
+        <div class="parallax" style="background-image: url(assets/images/parallax-1.jpg)">
             <div class="info">
-                <h2 data-in-effect="none">JOHN SMITH</h2>
+                <h2 data-in-effect="none">MINIMAL THEME GLACIER</h2>
             </div>
         </div>
         <!-- /parallax -->
 
-         <div style="margin-top: 150px; margin-bottom: 50px;">
-          <div class="container">
-            <div class="row">
+        <div class="container">
+          <div class="row">
+           <div class="col-md-12">
 
-            <!-- experience -->
-            <div class="experience-box">
-                <div class="icon">
-                    <i aria-hidden="true" class="fa fa-briefcase"></i>
-                </div>
-                <h4>Projects</h4>
-                <div class="timer">
-                    <span class="number">58</span>
-                </div>
+            <!-- filter -->
+            <div class="portfolioFilter text-center">
+                <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All</div>
+                <div data-filter=".branding" class="cbp-filter-item">Branding</div>
+                <div data-filter=".design" class="cbp-filter-item">Design</div>
+                <div data-filter=".illustration" class="cbp-filter-item">Illustration</div>
             </div>
-            <div class="experience-box">
-                <div class="icon">
-                    <i aria-hidden="true" class="fa fa-coffee"></i>
-                </div>
-                <h4>Coffees</h4>
-                <div class="timer">
-                    <span class="number">260</span>
-                </div>
-            </div>
-            <div class="experience-box">
-                <div class="icon">
-                    <i aria-hidden="true" class="fa fa-smile-o"></i>
-                </div>
-                <h4>Clients</h4>
-                <div class="timer">
-                    <span class="number">420</span>
-                </div>
-            </div>
-            <div class="experience-box">
-                <div class="icon">
-                    <i aria-hidden="true" class="fa fa-trophy"></i>
-                </div>
-                <h4>Contests won</h4>
-                <div class="timer">
-                    <span class="number">32</span>
-                </div>
-            </div>
-            <!-- /experience -->
+            <!-- /filter -->
 
-            <div class="col-md-6" style="margin-top:65px;">
-                <p>Created, likeness bring which in stars herb a is give you’ll it life you’ll. Whose evening. Spirit subdue two don’t. Living, i divided was be every had. Him god. Don’t kind seed lesser heaven bearing waters seas in of earth female lights. Morning fruit may. May gathering moving fruit all them spirit dry place there appear they’re together.<br>
-                A divide rule that second said Two deep. Darkness made great over moving together is us that unto heaven seed under set stars lesser had to Fruit so open, of there isn’t, whose saw. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dusmod tempor incididunt ut labore et dolore magna aliqua. Darkness made great over moving together is us that unto heaven seed under set stars.</p>
-                <img width="70" height="39" src="assets/images/signature.jpg" alt="signature" style="margin-top:20px;">
-                <p>
-                    <em>John Smith</em>
-                    <br>
-                    <em>01.01.2017</em>
-                </p>
+            <div id="grid-mosaic" class="cbp fadeAnim">
+
+                <!-- portfolio item 1 -->
+                <div class="cbp-item branding illustration design">
+                    <a href="portfolio-single-1.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-1.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Cups</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 1 -->
+
+                <!-- portfolio item 2 -->
+                <div class="cbp-item illustration design">
+                    <a href="portfolio-single-2.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-2.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Cactus</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 2 -->
+
+                <!-- portfolio item 3 -->
+                <div class="cbp-item design">
+                    <a href="portfolio-single-3.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-3.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Dance</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 3 -->
+                
+                <!-- portfolio item 4 -->
+                <div class="cbp-item illustration">
+                    <a href="portfolio-single-4.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-4.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Bottles</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 4 -->
+                
+                <!-- portfolio item 5 -->
+                <div class="cbp-item branding illustration design">
+                    <a href="portfolio-single-5.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-5.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Tree</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 5 -->
+
+                <!-- portfolio item 6 -->
+                <div class="cbp-item branding">
+                    <a href="portfolio-single-1.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-6.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Dream</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 6 -->
+
+                <!-- portfolio item 7 -->
+                <div class="cbp-item branding illustration design">
+                    <a href="portfolio-single-2.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-7.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Logo</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 7 -->
+
+                <!-- portfolio item 8 -->
+                <div class="cbp-item design">
+                    <a href="portfolio-single-3.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-8.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Music album</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 8 -->
+
+                <!-- portfolio item 9 -->
+                <div class="cbp-item branding design">
+                    <a href="portfolio-single-4.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-9.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Book</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 9 -->
+
+                <!-- portfolio item 10 -->
+                <div class="cbp-item branding illustration design">
+                    <a href="portfolio-single-4.html">
+                      <div class="image-box">
+                         <img src="assets/images/glacierStyle/portfolio-item-10.jpg" alt="">
+                      </div>
+                      <div class="caption-box">
+                       <div class="caption-center-box">
+                         <div class="caption-body">
+                            <h2>Photo</h2>
+                         </div>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <!-- /portfolio item 10 -->
+
             </div>
 
-            <div class="col-md-6" style="margin-top:93px;">
-
-                <!-- skillbar -->
-                 <div class="skillbar" data-percent="95%" style="margin-bottom: 50px; ">
-                    <div class="skillbar-title">
-                        <h5>DESIGN</h5>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">95%</div>
-                </div>
-                <div class="skillbar" data-percent="85%" style="margin-bottom: 50px; ">
-                    <div class="skillbar-title">
-                        <h5>DEVELOPMENT</h5>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">85%</div>
-                </div>
-                <div class="skillbar" data-percent="65%" style="margin-bottom: 50px; ">
-                    <div class="skillbar-title">
-                        <h5>BRANDING</h5>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">65%</div>
-                </div>
-                <div class="skillbar" data-percent="95%" style="margin-bottom: 50px; ">
-                    <div class="skillbar-title">
-                        <h5>HTML5/CSS3</h5>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">95%</div>
-                </div>
-                <div class="skillbar" data-percent="75%" style="margin-bottom: 50px; ">
-                    <div class="skillbar-title">
-                        <h5>PHP</h5>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">75%</div>
-                </div>
-                <div class="skillbar" data-percent="45%" style="margin-bottom: 50px; ">
-                    <div class="skillbar-title">
-                        <h5>AFTER EFFECTS</h5>
-                    </div>
-                    <div class="skillbar-bar"></div>
-                    <div class="skill-bar-percent">45%</div>
-                </div>
-                <!-- /skillbar -->
-
+            <!-- ajax load button -->
+            <div class="load-more text-center">
+                <a href="ajax-portfolio/fadeAnim-loadMore.html" class="cbp-l-loadMore-link" rel="nofollow">
+                    <span class="cbp-l-loadMore-defaultText">LOAD MORE</span>
+                    <span class="cbp-l-loadMore-loadingText">LOADING...</span>
+                    <span class="cbp-l-loadMore-noMoreLoading">NO MORE</span>
+                </a>
             </div>
+            <!-- /ajax load button -->
 
-     </div>
-    </div>
-   </div>
+          </div>
+         </div>
+        </div>
 
 </div>
 <!-- /wrapper --> 
@@ -454,14 +548,14 @@
     <script src="assets/js/plugins/jarallax.js"></script>
     <!-- Lightcase -->
     <script src="assets/js/plugins/lightcase.js"></script>
-    <!-- Images Loaded -->
-    <script src="assets/js/plugins/images-loaded.js"></script>
     <!-- Skills bar -->
     <script src="assets/js/plugins/skills-bar.js"></script>
     <!-- Slick Nav -->
     <script src="assets/js/plugins/slick-nav.js"></script>
     <!-- Flex Slider -->
     <script src="assets/js/plugins/flexslider.js"></script>
+    <!-- Images Loaded -->
+    <script src="assets/js/plugins/images-loaded.js"></script>
     <!-- Isotope -->
     <script src="assets/js/plugins/isotope.js"></script>
     <!-- Cube Portfolio -->
